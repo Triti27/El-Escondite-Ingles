@@ -1,0 +1,22 @@
+Puntos Realizados:
+
+1pt: AI Controller que actúa a modo de vigilante. ((EN LA CARPETA IA > VIGILANTE))
+
+1pt: AI Controller que actúa a modo de corredor. ((EN LA CARPETA IA > CORREDOR))
+
+1pt: Pawn con las funcionalidades de correr a un punto, parar, y rotar sobre sí mismo. ((LOS DOS MANIQUÍS HAN SIDO CREADOS DESDE 0 Y TIENEN IMPLEMENTADAS TALES FUNCIONALIDADES))
+
+1pt: Material que cambia su color según el estado de la IA del corredor:  ((SE PUEDE VER EN LOS 5 MANIQUIS DE LA IZQUIERDA))
+   ○ Rojo: jugador eliminado y volviendo al inicio. 
+   ○ Verde: jugador corriendo. 
+   ○ Dorado: jugador parado.
+
+1pt: Material que cambia de color según el estado de la IA del vigilante: ((SE PUEDE VER EN EL MANIQUÍ DE LA DERECHA MIENTRAS SEA EL VIGILANTE))
+   ○ Azul: contando de espaldas a los corredores. 
+   ○ Blanco: Mirando a los jugadores.  
+
+1pt: Explicación de la arquitectura del proyecto y código. ((CON VOZ EN EL VIDEO))
+
+1pt: Delimitar y decorar la zona de juego con meshes y materiales.  ((CON LOS MESHES Y MATERIALES DE "PANDANNUS" UTILIZADOS EN EL EXAMEN))
+
+3pt: Hacer que si el jugador entre en la zona de juego asuma el rol de vigilante y, por lo tanto, la IA del vigilante pase a ser un corredor. ((SE PUEDE VER IMPLEMENTADO EL CAMBIO DE CONTROLADOR EN EL BP DEL VIGILANTE))
